@@ -5,7 +5,7 @@ easy to reuse and informative */
 
 var string = 'tomato';
 var tomato = true;
-var peanut;
+var peanut = 8;
 var butter = null ;
 
 console.log(typeof 'tomato');
@@ -40,6 +40,7 @@ var yourAge = 56;
 
 console.log(myAge);
 console.log(yourAge);
+
 
 
 
