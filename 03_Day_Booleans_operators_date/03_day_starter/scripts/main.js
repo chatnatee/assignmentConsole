@@ -32,7 +32,7 @@ console.log(4 <= 3); //false
 console.log(4 == 4); //true
 console.log(4 === 4); //true
 console.log(4 != 4); //false
-console.log(4 !=== 4); //false
+console.log(4 !== 4); //false
 console.log(4 != '4'); //false
 console.log(4 == '4'); //false
 console.log(4 === '4'); //false
@@ -52,7 +52,7 @@ console.log('python'.length === 'jargon'.length);
 
 const now = new Date()
 console.log(now)
-const year = now.getFullYear()
+//const year = now.getFullYear()
 console.log(year)
 const month = now.getMonth()
 console.log(month)
@@ -78,12 +78,11 @@ let side_C = prompt('Enter number', 'number goes here')
 console.log(side_A + side_B + side_C)
 
 
-const allSeconds = Date.now() //
+//const allSeconds = Date.now() //
 console.log(allSeconds)
 
-console.log(`${year}-${month}-${day} ${hours}:${minutes})
-console.log(`${day}-${month}-${year} ${hours}:${minutes})
-console.log(`${date}/${month}/${year} ${hours}:${minutes})
+console.log(`${year}-${month}-${day} ${hours}:${minutes}`)
+console.log(`${day}-${month}-${year} ${hours}:${minutes}`)
+console.log(`${date}/${month}/${year} ${hours}:${minutes}`)
 
-console.log(`${date}-${month}-${year} ${hours}:${minutes})
-
+console.log(`${date}-${month}-${year}-${hours}:${minutes}`)
